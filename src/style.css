@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-penguin {
+  @apply mt-3
+  uppercase
+  text-white
+  w-28
+  h-8
+  bg-gradient-to-r
+  from-penguin_primary-400
+  to-penguin_secondary-400
+  rounded-sm
+  font-normal;
+}
+
+@screen lg {
+  .btn-penguin {
+    @apply w-40 h-14 rounded-xl font-medium;
+  }
+}
